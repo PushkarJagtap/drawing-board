@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+}
+
+h1{
+    padding-top: 30px;
+    text-align: center;
+    font: 2em sans-serif;
+}
+.draw-board{
+    height: 480px;
+    width: 480px;
+    display: flex;
+    flex-wrap: wrap;
+   margin: auto;
+}
+.child{
+    height: 60px;
+    width: 60px;
+    border: 1px solid black;
+}
+button{
+   margin-top: 30px;
+   margin-bottom: 30px;
+   font-size: large;
+}
+
